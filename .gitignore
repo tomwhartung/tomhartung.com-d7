@@ -4,8 +4,13 @@ sites/*/settings*.php
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
-
+#
 # Ignore subsites
 #
 idMyGadget
 resume
+#
+# Ignore jmws themes (they are in their own separate repos)
+#
+sites/all/modules/jmws
+sites/all/themes/jmws
